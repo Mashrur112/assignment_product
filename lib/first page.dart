@@ -32,7 +32,14 @@ class _FirstpageState extends State<Firstpage> {
           Padding(
             padding:  EdgeInsets.symmetric(horizontal: (15/392.72)*screenW),
             child: Text("Lenovo IdeaPad Slim 5 14ABR8 Ryzen 5 7530U 14 inch WUXGA Laptop",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
+            
           ),
+          Container(height: (20/802)*screenH,),
+          Padding(
+            padding:  EdgeInsets.symmetric(horizontal: (15/392.72)*screenW),
+            child: Text("1) Processor: AMD Ryzen 5 7530U (2.0GHz up to 4.5GHz\n\n2) Ram: 16GB DDR4 3200 MHz, Storage: 512GB M.2 PCIe Gen4 SSD\n\n3) Display: 14 inch WUXGA (1920x1200) IPS\n\n4) Features: Backlit Keyboard, Type-C, Privacy Shutter",style: TextStyle(fontSize: 14,fontWeight: FontWeight.w400),),
+          ),
+
         ],
       ),
     );
