@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # assignment_product
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# assignment_product
+>>>>>>> 5b9e2662d114c705b28a0563d7b07e479d1c948a
