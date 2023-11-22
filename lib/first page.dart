@@ -47,32 +47,7 @@ class _FirstpageState extends State<Firstpage> {
           ),
           Text("99,500৳",style: TextStyle(color: Colors.red,fontWeight: FontWeight.bold,fontSize: 25),),
           Container(height:(20/802)*screenH ,),
-          GestureDetector(
-            onTap: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context)=>second_page()));
-            },
-            child: Container(
-              width: (200/372)*screenW,
-              height: (50/802)*screenH,
-              decoration: BoxDecoration(
-                color: Color(0xff170f3b),
-                borderRadius: BorderRadius.circular(26),
-                boxShadow: [BoxShadow(
-                  color: Colors.grey,
-                  offset: Offset(0, 7),
-
-
-                ),],
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(Icons.shopify_outlined,color: Colors.lightBlueAccent,size: 35,),
-                  Text("Buy Now!",style: TextStyle(color: Colors.white,fontSize: 20,fontWeight: FontWeight.bold),),
-                ],
-              ),
-            ),
-          ),
+          
 
         ],
       ),
