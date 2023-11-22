@@ -79,8 +79,7 @@ class _FirstpageState extends State<Firstpage> {
         ],
 
       ),
-=======
-      body: Column(),
+
 
     );
   }
