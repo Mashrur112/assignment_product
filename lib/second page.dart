@@ -9,7 +9,7 @@ class _second_pageState extends State<second_page> {
   Widget build(BuildContext context) {
     return Scaffold(
 
-      body: Container(),
+      body: Column(),
 
     );
   }
