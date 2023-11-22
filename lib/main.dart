@@ -1,4 +1,5 @@
 import 'package:assignment_product/first%20page.dart';
+import 'package:assignment_product/second%20page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -43,7 +44,7 @@ class _MyAppState extends State<MyApp> {
         //colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
-      home:  SafeArea(child: Firstpage()),
+      home:  SafeArea(child: second_page()),
     );
   }
 }
