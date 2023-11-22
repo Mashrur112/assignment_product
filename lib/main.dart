@@ -46,7 +46,7 @@ class _MyAppState extends State<MyApp> {
         //colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
-      home:  SafeArea(child: Firstpage()),
+      home:  SafeArea(child: second_page()),
     );
   }
 }
