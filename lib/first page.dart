@@ -1,4 +1,5 @@
-import 'package:assignment_product/second%20page.dart';
+
+
 import 'package:flutter/material.dart';
 import 'package:assignment_product/main.dart';
 
@@ -20,6 +21,7 @@ class _FirstpageState extends State<Firstpage> {
         title: Text("Product Details",style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold,color: Colors.white),),
 
       ),
+
       body: Column(
        // mainAxisAlignment: MainAxisAlignment.center,
       // crossAxisAlignment: CrossAxisAlignment.end,
@@ -52,6 +54,9 @@ class _FirstpageState extends State<Firstpage> {
         ],
 
       ),
+=======
+      body: Column(),
+
     );
   }
 }
