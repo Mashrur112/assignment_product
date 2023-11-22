@@ -1,5 +1,6 @@
 
 
+import 'package:assignment_product/second%20page.dart';
 import 'package:flutter/material.dart';
 import 'package:assignment_product/main.dart';
 
@@ -51,7 +52,7 @@ class _FirstpageState extends State<Firstpage> {
           Container(height:(20/802)*screenH ,),
           GestureDetector(
             onTap: (){
-              //Navigator.push(context, MaterialPageRoute(builder: (context)=>second_page()));
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>second_page()));
             },
             child: Container(
               width: (200/372)*screenW,
