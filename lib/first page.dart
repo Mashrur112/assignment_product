@@ -48,7 +48,7 @@ class _FirstpageState extends State<Firstpage> {
             padding:  EdgeInsets.symmetric(horizontal:(40/392)*screenW,vertical: (10/802)*screenH ),
             child: Expanded(child: Divider(thickness: 1,)),
           ),
-          Text("99,500৳",style: TextStyle(color: Colors.red,fontWeight: FontWeight.bold,fontSize: 25),),
+          Text("99,500৳",style: TextStyle(color: Colors.red,fontWeight: FontWeight.bold,fontSize: 25,shadows: [Shadow(color: Colors.grey.shade400,offset: Offset(0, 3))]),),
           Container(height:(20/802)*screenH ,),
           GestureDetector(
             onTap: (){
@@ -58,11 +58,12 @@ class _FirstpageState extends State<Firstpage> {
               width: (200/372)*screenW,
               height: (50/802)*screenH,
               decoration: BoxDecoration(
-                color: Color(0xff170f3b),
-                borderRadius: BorderRadius.circular(26),
+                color: Colors.blueGrey.shade100,
+                borderRadius: BorderRadius.circular(25),
                 boxShadow: [BoxShadow(
-                  color: Colors.grey,
-                  offset: Offset(0, 7),
+                  spreadRadius: 1,
+                  color: Colors.grey.shade400,
+                  offset: Offset(0, 4),
 
 
                 ),],
@@ -70,8 +71,9 @@ class _FirstpageState extends State<Firstpage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(Icons.shopify_outlined,color: Colors.lightBlueAccent,size: 35,),
-                  Text("Buy Now!",style: TextStyle(color: Colors.white,fontSize: 20,fontWeight: FontWeight.bold),),
+                  Icon(Icons.shopify_outlined,color: Colors.blueAccent,size: 35,shadows: [Shadow(color: Colors.grey.shade400,offset: Offset(0,2))],),
+                  Text("Buy Now!",style: TextStyle(color: Colors.blueAccent,fontSize: 20,fontWeight: FontWeight.bold,shadows: [Shadow(color: Colors.grey.shade400,offset: Offset(0,3)
+                  )]),),
                 ],
               ),
             ),

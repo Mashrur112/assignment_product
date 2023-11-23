@@ -25,6 +25,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        scaffoldBackgroundColor: Colors.grey.shade300,
 
 
         // This is the theme of your application.
