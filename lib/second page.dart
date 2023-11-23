@@ -16,13 +16,18 @@ class _second_pageState extends State<second_page> {
       body: Column(
 
         children: [
-          Container(height:(150/872)*screenH),
+          Container(height:(70/872)*screenH),
           Center(
             child: Container(
-              height:(300/872)*screenH ,
-              width: (250/392)*screenW,
+              height:(400/872)*screenH ,
+              width: (370/392)*screenW,
               decoration: BoxDecoration(
-                color: Colors.grey.shade400,
+                color: Colors.grey.shade200,
+              ),
+              child: Column(
+                children: [
+                  Text("Payment Method",style: TextStyle(fontWeight: FontWeight.bold),)
+                ],
               ),
             ),
           )
