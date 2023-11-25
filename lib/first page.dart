@@ -119,6 +119,8 @@ class _FirstpageState extends State<Firstpage> {
           Container(
             height: (10 / 802) * screenH,
           ),
+
+
           GestureDetector(
             onTap: () {
               Navigator.push(context,
@@ -128,6 +130,7 @@ class _FirstpageState extends State<Firstpage> {
               width: (180 / 372) * screenW,
               height: (50 / 802) * screenH,
               decoration: BoxDecoration(
+
                 color: Colors.white,
                 border: Border.all(color: Colors.green,width: 2),
                 borderRadius: BorderRadius.circular(25),
@@ -138,10 +141,12 @@ class _FirstpageState extends State<Firstpage> {
                     offset: Offset(0, 4),
                   ),
                 ],
+
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+
 
                   Icon(
                     Icons.shopping_cart,
@@ -167,6 +172,7 @@ class _FirstpageState extends State<Firstpage> {
                       )],
                        ),
                   ),
+
                 ],
               ),
             ),
