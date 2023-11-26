@@ -54,7 +54,7 @@ class _FirstpageState extends State<Firstpage> {
                 ),
                 Padding(
                   padding:
-                      EdgeInsets.symmetric(horizontal: (10 / 372) * screenW),
+                  EdgeInsets.symmetric(horizontal: (10 / 372) * screenW),
                   child: Text(
                     "৳ 99,500",
                     style: TextStyle(
@@ -80,7 +80,7 @@ class _FirstpageState extends State<Firstpage> {
 
           Container(
             margin: EdgeInsets.symmetric(vertical: (4/872)*screenH),
-            height: (280 / 872) * screenH,
+            height: (300 / 872) * screenH,
             width: (350 / 372) * screenW,
             decoration: BoxDecoration(
               color: Colors.white,
@@ -91,7 +91,7 @@ class _FirstpageState extends State<Firstpage> {
                 //Container(height: (10/802)*screenH,),
                 Padding(
                   padding:
-                      EdgeInsets.symmetric(horizontal: (20 / 392.72) * screenW,vertical: (9/872)*screenH),
+                  EdgeInsets.symmetric(horizontal: (20 / 392.72) * screenW,vertical: (9/872)*screenH),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -128,7 +128,7 @@ class _FirstpageState extends State<Firstpage> {
             },
             child: Container(
               width: (180 / 372) * screenW,
-              height: (50 / 802) * screenH,
+              height: (50 / 872) * screenH,
               decoration: BoxDecoration(
 
                 color: Colors.white,
@@ -161,16 +161,16 @@ class _FirstpageState extends State<Firstpage> {
                   Text(
                     "Buy Now!",
                     style: TextStyle(
-                        color: Colors.green.shade300,
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
+                      color: Colors.green.shade300,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
                       shadows: [Shadow(
                         color: Colors.grey,
                         //blurRadius: 10,
                         offset: Offset(0, 2),
 
                       )],
-                       ),
+                    ),
                   ),
 
                 ],
