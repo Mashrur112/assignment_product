@@ -123,6 +123,8 @@ class _FirstpageState extends State<Firstpage> {
 
           GestureDetector(
             onTap: () {
+
+
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => second_page()));
 

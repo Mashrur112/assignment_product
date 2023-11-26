@@ -303,7 +303,7 @@ class _second_pageState extends State<second_page> {
                                              child: AlertDialog(
 
                                                title: Center(child: Text('Please Select a Method')),
-                                               content: Center(child: Text('Payment not Successful!')),
+                                               content: Text('Payment not Successful!'),
                                              ),
                                            );
                                          },
@@ -318,7 +318,7 @@ class _second_pageState extends State<second_page> {
                                              child: AlertDialog(
 
                                                title: Center(child: Text('$selection')),
-                                               content: Center(child: Text('Payment Successful')),
+                                               content: Text('Payment Successful'),
                                              ),
                                            );
                                          },
