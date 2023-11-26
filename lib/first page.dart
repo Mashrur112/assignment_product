@@ -80,7 +80,7 @@ class _FirstpageState extends State<Firstpage> {
 
           Container(
             margin: EdgeInsets.symmetric(vertical: (4/872)*screenH),
-            height: (280 / 872) * screenH,
+            height: (300 / 872) * screenH,
             width: (350 / 372) * screenW,
             decoration: BoxDecoration(
               color: Colors.white,
@@ -128,7 +128,7 @@ class _FirstpageState extends State<Firstpage> {
             },
             child: Container(
               width: (180 / 372) * screenW,
-              height: (50 / 802) * screenH,
+              height: (50 / 872) * screenH,
               decoration: BoxDecoration(
 
                 color: Colors.white,
