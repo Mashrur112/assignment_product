@@ -17,7 +17,7 @@ class _second_pageState extends State<second_page> {
         return Expanded(
           child: AlertDialog(
             title: Center(child: Text('Selected Bkash')),
-           // content: Text('Payment Successful'),
+            // content: Text('Payment Successful'),
           ),
         );
       },
@@ -77,7 +77,7 @@ class _second_pageState extends State<second_page> {
         return Expanded(
           child: AlertDialog(
             title: Center(child: Text('Selected AMEX')),
-           // content: Text('Payment Successful'),
+            // content: Text('Payment Successful'),
           ),
         );
       },
@@ -109,7 +109,7 @@ class _second_pageState extends State<second_page> {
               height: (716 / 802) * screenH,
               //width: (370 / 392) * screenW,
               decoration: BoxDecoration(
-               // borderRadius: BorderRadius.circular(21),
+                // borderRadius: BorderRadius.circular(21),
                 color: Color(0xff265c7e),
               ),
 
@@ -194,7 +194,7 @@ class _second_pageState extends State<second_page> {
                                           Text("bkash",style: TextStyle(fontSize: 23,fontWeight: FontWeight.bold,color: Colors.black54,),),
                                         ],
                                       )),
-                                 // Container(width: (90/373)*screenW,),
+                                  // Container(width: (90/373)*screenW,),
                                   GestureDetector(
                                       onTap: pressed1,
                                       child: Row(
@@ -278,65 +278,65 @@ class _second_pageState extends State<second_page> {
                         Container(
 
 
-                          width:(screenW),
-                          height: (120 / 872) * screenH,
-                          decoration: BoxDecoration(
-                            color: Color(0xff265c7e),
-                            borderRadius: BorderRadius.circular(23),
+                            width:(screenW),
+                            height: (120 / 872) * screenH,
+                            decoration: BoxDecoration(
+                              color: Color(0xff265c7e),
+                              borderRadius: BorderRadius.circular(23),
 
-                          ),
-                          child:
+                            ),
+                            child:
                             Row(
                               children: [
-                               SizedBox.fromSize(size:Size((30/392)*screenW,0)),
-                               GestureDetector (
-                                 onTap: (){
-                                   setState(() {
-                                     if(selection==" ")
-                                     {
-                                       showDialog(
+                                SizedBox.fromSize(size:Size((30/392)*screenW,0)),
+                                GestureDetector (
+                                  onTap: (){
+                                    setState(() {
+                                      if(selection==" " || d_value == "Choose a payment method")
+                                      {
+                                        showDialog(
 
-                                         context: context,
-                                         builder: (BuildContext context) {
-                                           return Expanded(
+                                          context: context,
+                                          builder: (BuildContext context) {
+                                            return Expanded(
 
-                                             child: AlertDialog(
+                                              child: AlertDialog(
 
-                                               title: Center(child: Text('Please Select a Method')),
-
-
-                                               content: Text('Payment not Successful!'),
-
-                                             ),
-                                           );
-                                         },
-                                       );
-                                     }
-                                     else
-                                     {
-                                       showDialog(
-                                         context: context,
-                                         builder: (BuildContext context) {
-                                           return Expanded(
-                                             child: AlertDialog(
-
-                                               title: Center(child: Text('$selection')),
+                                                title: Center(child: Text('Please Select a payment method')),
 
 
-                                               content: Text('Payment Successful'),
+                                                content: Text('Payment not Successful!'),
 
-                                             ),
-                                           );
-                                         },
-                                       );
+                                              ),
+                                            );
+                                          },
+                                        );
+                                      }
+                                      else
+                                      {
+                                        showDialog(
+                                          context: context,
+                                          builder: (BuildContext context) {
+                                            return Expanded(
+                                              child: AlertDialog(
 
-                                     }
-
-                                   });
+                                                title: Center(child: Text('$selection ($d_value)')),
 
 
+                                                content: Text('Payment Successful!'),
 
-                                   },
+                                              ),
+                                            );
+                                          },
+                                        );
+
+                                      }
+
+                                    });
+
+
+
+                                  },
 
 
 
