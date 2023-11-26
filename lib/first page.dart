@@ -52,6 +52,7 @@ class _FirstpageState extends State<Firstpage> {
           Container(height:(20/802)*screenH ,),
           GestureDetector(
             onTap: (){
+              print(screenH);
               Navigator.push(context, MaterialPageRoute(builder: (context)=>second_page()));
             },
             child: Container(
