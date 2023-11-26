@@ -54,7 +54,7 @@ class _FirstpageState extends State<Firstpage> {
                 ),
                 Padding(
                   padding:
-                      EdgeInsets.symmetric(horizontal: (10 / 372) * screenW),
+                  EdgeInsets.symmetric(horizontal: (10 / 372) * screenW),
                   child: Text(
                     "৳ 99,500",
                     style: TextStyle(
@@ -91,7 +91,7 @@ class _FirstpageState extends State<Firstpage> {
                 //Container(height: (10/802)*screenH,),
                 Padding(
                   padding:
-                      EdgeInsets.symmetric(horizontal: (20 / 392.72) * screenW,vertical: (9/872)*screenH),
+                  EdgeInsets.symmetric(horizontal: (20 / 392.72) * screenW,vertical: (9/872)*screenH),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -161,16 +161,16 @@ class _FirstpageState extends State<Firstpage> {
                   Text(
                     "Buy Now!",
                     style: TextStyle(
-                        color: Colors.green.shade300,
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
+                      color: Colors.green.shade300,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
                       shadows: [Shadow(
                         color: Colors.grey,
                         //blurRadius: 10,
                         offset: Offset(0, 2),
 
                       )],
-                       ),
+                    ),
                   ),
 
                 ],
