@@ -11,7 +11,6 @@ class _second_pageState extends State<second_page> {
 
   void pressed() {
     selection="Bkash";
-
     showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -289,17 +288,20 @@ class _second_pageState extends State<second_page> {
                           child:
                             Row(
                               children: [
-                                SizedBox.fromSize(size:Size((30/392)*screenW,0)),
+                               SizedBox.fromSize(size:Size((30/392)*screenW,0)),
                                GestureDetector (
                                  onTap: (){
                                    setState(() {
                                      if(selection==" ")
                                      {
                                        showDialog(
+
                                          context: context,
                                          builder: (BuildContext context) {
                                            return Expanded(
+
                                              child: AlertDialog(
+
                                                title: Center(child: Text('Please Select a Method')),
                                                content: Center(child: Text('Payment not Successful!')),
                                              ),
@@ -314,6 +316,7 @@ class _second_pageState extends State<second_page> {
                                          builder: (BuildContext context) {
                                            return Expanded(
                                              child: AlertDialog(
+
                                                title: Center(child: Text('$selection')),
                                                content: Center(child: Text('Payment Successful')),
                                              ),
