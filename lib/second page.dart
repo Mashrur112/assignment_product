@@ -205,22 +205,22 @@ class _second_pageState extends State<second_page> {
                                 ],
                               ),
 
+
                               Row(
                                 children: [
                                   Container(width: (90/373)*screenW,),
-                                  Padding(
-                                    padding:  EdgeInsets.fromLTRB(0, 0, 10, 0),
-                                    child: GestureDetector(
-                                        onTap: pressed2,
-                                        child: Image.asset(
-                                          "assets/images/visa.png",
-                                          height: (60 / 872) * screenH,
-                                          width: (60 / 372) * screenW,
-                                        )),
-                                  ),
+                                  GestureDetector(
+                                      onTap: pressed2,
+                                      child: Image.asset(
+                                        "assets/images/visa.png",
+                                        height: (60 / 872) * screenH,
+                                        width: (60 / 372) * screenW,
+                                      )),
+                                  SizedBox.fromSize(size: Size((15/372)*screenW, 1),),
                                   Text("visa",style: TextStyle(fontSize: 23,fontWeight: FontWeight.bold,color: Colors.black54,),),
                                 ],
                               ),
+
                               GestureDetector(
                                   onTap: pressed3,
                                   child: Image.asset(
